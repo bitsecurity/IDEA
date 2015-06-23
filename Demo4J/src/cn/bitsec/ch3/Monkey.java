@@ -2,7 +2,7 @@ package cn.bitsec.ch3;
 
 public class Monkey {
     public static void main(String[] args) {
-        int sum = 0,fen = 0;
+        int sum, fen;
         out:
         for (int i = 6; i < 10000; i = i + 5) {//桃子总数最少为6只，为防止溢出设定上界为10000
             sum = i;
