@@ -7,7 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>
-<% String path =request.getContextPath(); String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; %>
+<% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
 <base href="<%=basePath%>">
 <html lang="zh-CN">
 <meta charset="utf-8">
@@ -42,12 +43,14 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
-                                                      src="/images/main/courseintro.jpg"  alt="相关课程介绍"></a>
+                                                                            src="/images/main/courseintro.jpg"
+                                                                            alt="相关课程介绍"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
                             </h3>
+
                             <p>
                                 《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
                             </p>
@@ -57,12 +60,14 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="/view/test/test.jsp" title="基础测试"><img width="300" height="150"
-                                                      src="/images/main/basetest.jpg"  alt="基础知识测试"></a>
+                                                                        src="/images/main/basetest.jpg"
+                                                                        alt="基础知识测试"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/test/test.jsp" title="基础测试">基础测试</a>
                             </h3>
+
                             <p>
                                 提供网络安全相关基础知识测试。采用单项选择题方式，在制定的时间内答题。检查对基础知识点的掌握程度！
                             </p>
@@ -72,54 +77,62 @@
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="/view/ctf/ctf.jsp" title="CTF"><img width="300" height="150"
-                                                      src="/images/main/ctf.jpg"  alt="在线CTF挑战"></a>
+                                                                     src="/images/main/ctf.jpg" alt="在线CTF挑战"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/ctf/ctf.jsp" title="CTF挑战">CTF挑战</a>
                             </h3>
+
                             <p>
                                 CTF：展示你的能力吧，题目主要包含逆向、漏洞挖掘与利用、Web渗透、密码、取证、隐写、安全编程等类别。
                             </p>
                         </div>
                     </div>
-                </div> <div class="col-sm-6 col-md-4 col-lg-4 ">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="/view/box/box.jsp" title="漏洞盒子"><img width="300" height="150"
-                                                      src="/images/main/box.png"  alt="漏洞盒子"></a>
+                                                                      src="/images/main/box.png" alt="漏洞盒子"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/box/box.jsp" title="漏洞盒子">漏洞盒子</a>
                             </h3>
+
                             <p>
                                 如果你发现了中国矿业大学校内任何站点的漏洞，请提交给我们，我们会及时通告相关站点进行漏洞修复。当然，你还可以获得相应的积分奖励哦，积分可以换取你喜欢的商品。
                             </p>
                         </div>
                     </div>
-                </div> <div class="col-sm-6 col-md-4 col-lg-4 ">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="/view/scores/scores.jsp" title="积分兑换"><img width="300" height="150"
-                                                      src="/images/main/jifen.png"  alt="积分兑换"></a>
+                                                                            src="/images/main/jifen.png" alt="积分兑换"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/scores/scores.jsp" title="积分兑换">积分兑换</a>
                             </h3>
+
                             <p>
                                 我们准备了许多小礼品，你可以通过你获取的财富积分进行兑换啊！
                             </p>
                         </div>
                     </div>
-                </div> <div class="col-sm-6 col-md-4 col-lg-4 ">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
                         <a href="/view/message/message.jsp" title="留言板"><img width="300" height="150"
-                                                      src="/images/main/liuyan.png"  alt="留言板"></a>
+                                                                             src="/images/main/liuyan.png"
+                                                                             alt="留言板"></a>
 
                         <div class="caption">
                             <h3>
                                 <a href="/view/message/message.jsp" title="留言板">留言板</a>
                             </h3>
+
                             <p>
                                 如果你有网络安全相关知识的困惑，如果你感觉我们可以帮助你，如果你可以给我们更好的建议，请留言！感谢你的参与。
                             </p>
@@ -129,7 +142,54 @@
             </div>
         </div>
         <div class="col-md-3">
-            <h2>新闻公告</h2>
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12 ">
+                    <div class="news">
+                        <div class="caption">
+                            <h3>
+                                新闻公告
+                            </h3>
+                            <hr>
+                            <ul>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
