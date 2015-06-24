@@ -7,7 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>
-<% String path =request.getContextPath(); String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; %>
+<% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
 <base href="<%=basePath%>">
 <html lang="zh-CN">
 <meta charset="utf-8">
@@ -32,7 +33,7 @@
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
-<%@include file="/common/header.jsp"%>
+<%@include file="/common/header.jsp" %>
 
 <%--content--%>
 <div class="container projects">
@@ -48,7 +49,7 @@
 
 
 <%--footer.jsp--%>
-<%@include file="/common/footer.jsp"%>
+<%@include file="/common/footer.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>

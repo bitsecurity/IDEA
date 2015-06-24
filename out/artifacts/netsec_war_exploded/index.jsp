@@ -44,7 +44,6 @@
                     <h3>
                         <a href="index.jsp"> 首页</a> >
                     </h3>
-                    <hr>
                 </div>
             </div>
             <div class="row">
@@ -109,7 +108,7 @@
                             </h3>
 
                             <p>
-                                如果你发现了中国矿业大学校内任何站点的漏洞，请提交给我们，我们会及时通告相关站点进行漏洞修复。当然，你还可以获得相应的积分奖励哦，积分可以换取你喜欢的商品。
+                                如果你发现了中国矿业大学校内任何站点的漏洞，请提交给我们，我们会及时通告相关站点进行漏洞修复。你还可以获得相应的积分奖励哦，积分可以换取你喜欢的商品。
                             </p>
                         </div>
                     </div>
@@ -155,51 +154,52 @@
                     <div class="news">
                         <div class="caption">
                             <h3>
-                                新闻公告
+                                新闻公告<span class="more"><a href="index.jsp">more..</a></span>
                             </h3>
-                            <hr>
-                            <ul>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                            </ul>
                         </div>
+                        <div class="text">
+                        <ul>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                            </li>
+                            <li>
+                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                1news 1news 1news 1news 1
+                            </li>
+                            <li>
+                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                1news 1news 1news 1news 1
+                            </li>
+                            <li>
+                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                1news 1news 1news 1news 1
+                            </li>
+                            <li>
+                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                1news 1news 1news 1news 1
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 </div>
 
 <%--footer.jsp--%>

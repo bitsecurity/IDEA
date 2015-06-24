@@ -231,14 +231,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     border-radius: 0
 }
 
-.projects .caption{
+.projects .caption {
     height: inherit;
     padding-left: 20px;
     overflow-y: hidden;
     color: #555;
     display: block;
     border-left: 1px solid #e5e5e5;
+    border-bottom:1px solid #e5e5e5;
     margin-top: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -274,6 +276,22 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     padding-left: 20px;
     overflow-y: hidden;
     color: #555;
+    border-bottom:1px solid #e5e5e5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects .news .text {
+    height: inherit;
+    padding-left: 20px;
+    overflow-y: hidden;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.projects .news .caption .more{
+    float: right;
 }
 
 .projects .news .caption a:hover, .projects .news .caption a:focus {
