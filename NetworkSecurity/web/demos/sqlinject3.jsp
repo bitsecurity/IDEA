@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%@ page language="java" pageEncoding="utf-8" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
@@ -69,7 +69,7 @@
 		// 判断用户名是否合法
 		if (!regEx.test(name)) {
 			document.getElementById("nameHint").innerHTML = "用户名不合法！";
-			return;
+
 		}
 	}
 
@@ -94,7 +94,7 @@
 		// 判断用户名是否合法
 		if (!regEx.test(pwd)) {
 			document.getElementById("pwdHint").innerHTML = "密码不合法！";
-			return;
+
 		}
 	}
 </script>

@@ -1,6 +1,7 @@
 package cn.bitsec.ch6;
 
-import java.io.*;
+import java.io.File;
+import java.io.FilenameFilter;
 
 class DirFilter implements FilenameFilter {
 	String extn;
@@ -11,10 +12,7 @@ class DirFilter implements FilenameFilter {
 
 	public boolean accept(File dir, String name) {
 		boolean isAccept;
-		if (name.indexOf(extn) == -1)
-			isAccept = false;
-		else
-			isAccept = true;
+		isAccept = name.indexOf(extn) != -1;
 		return isAccept;
 	}
 }

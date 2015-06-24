@@ -231,7 +231,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     border-radius: 0
 }
 
-.projects .caption{
+.projects .caption {
     height: inherit;
     padding-left: 20px;
     overflow-y: hidden;

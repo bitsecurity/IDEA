@@ -61,7 +61,7 @@ function nameBlur() {
 	// 判断用户名是否合法
 	if (!regEx.test(name)) {
 		document.getElementById("nameHint").innerHTML = "用户名不合法！";
-		return;
+
 	}
 }
 
@@ -86,6 +86,6 @@ function pwdBlur() {
 	// 判断用户名是否合法
 	if (!regEx.test(pwd)) {
 		document.getElementById("pwdHint").innerHTML = "密码不合法！";
-		return;
+
 	}
 }

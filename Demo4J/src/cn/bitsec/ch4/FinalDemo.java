@@ -1,8 +1,8 @@
 package cn.bitsec.ch4;
 
 public final class FinalDemo {
-	public static int totalNumber = 0; // 计数的类变量
 	public static final int ID = 5;
+	public static int totalNumber = 0; // 计数的类变量
 	// public static final int ID; //非法，一定要在定义时赋初值
 	public final int TOTAL;
 
@@ -14,13 +14,13 @@ public final class FinalDemo {
 
 	public static void main(String[] args) {
 		FinalDemo t1 = new FinalDemo(5);
-		System.out.println("t1.ID： " + t1.ID);
+		System.out.println("t1.ID： " + ID);
 		System.out.println("t1.TOTAL： " + t1.TOTAL);
 		System.out.println("FinalDemo.totalNumber： " + FinalDemo.totalNumber);
 		FinalDemo t2 = new FinalDemo(8);
-		System.out.println("t2.ID： " + t2.ID);
+		System.out.println("t2.ID： " + ID);
 		System.out.println("t2.TOTAL： " + t2.TOTAL);
-		System.out.println("FinalDemo.totalNumber： " + t2.totalNumber);
+		System.out.println("FinalDemo.totalNumber： " + totalNumber);
 		// t2.TOTAL=5; //一旦赋了初值就不能改变
 		final int I = 10; // 使用final定义方法中局部常量
 		final int J;

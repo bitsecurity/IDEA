@@ -31,7 +31,7 @@ public class TypeV {
 		ClassB b2 = new ClassB();
 		// 子类对象转换为父类对象，显式或隐式的都可以
 		ClassA a4 = b2;
-		ClassA a5 = (ClassA) b2;
+		ClassA a5 = b2;
 		System.out.println(a4.s);
 		System.out.println(a5.s);
 	}

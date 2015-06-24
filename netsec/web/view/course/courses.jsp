@@ -38,12 +38,12 @@
 <%--content--%>
 <div class="container projects">
     <div class="row">
-            <div class="caption">
-                <h3>
-                    <a href="index.jsp"> 首页</a> ><a href="/view/course/courses.jsp"> 课程介绍</a>
-                </h3>
-                <hr>
-            </div>
+        <div class="caption">
+            <h3>
+                <a href="index.jsp"> 首页</a> ><a href="/view/course/courses.jsp"> 课程介绍</a>
+            </h3>
+            <hr>
+        </div>
     </div>
     <div class="row">
         <div class="col-sm-4 col-md-3 col-lg-3 ">
@@ -66,8 +66,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/wireless.jsp" title="无线网络安全"><img width="300" height="150"
-                                                                     src="/images/course/wireless.png"
-                                                                     alt="无线网络安全"></a>
+                                                                        src="/images/course/wireless.png"
+                                                                        alt="无线网络安全"></a>
 
                 <div class="caption">
                     <h3>
@@ -83,8 +83,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/os.jsp" title="操作系统安全"><img width="300" height="150"
-                                                                     src="/images/course/os.png"
-                                                                     alt="操作系统安全"></a>
+                                                                  src="/images/course/os.png"
+                                                                  alt="操作系统安全"></a>
 
                 <div class="caption">
                     <h3>
@@ -100,8 +100,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/secpro.jsp" title="安全协议"><img width="300" height="150"
-                                                                     src="/images/course/secpro.png"
-                                                                     alt="安全协议"></a>
+                                                                    src="/images/course/secpro.png"
+                                                                    alt="安全协议"></a>
 
                 <div class="caption">
                     <h3>
@@ -117,8 +117,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/forensic.jsp" title="计算机取证"><img width="300" height="150"
-                                                                     src="/images/course/forensic.png"
-                                                                     alt="计算机取证"></a>
+                                                                       src="/images/course/forensic.png"
+                                                                       alt="计算机取证"></a>
 
                 <div class="caption">
                     <h3>
@@ -134,8 +134,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/linux.jsp" title="LINUX操作系统"><img width="300" height="150"
-                                                                     src="/images/course/linux.png"
-                                                                     alt="LINUX操作系统"></a>
+                                                                        src="/images/course/linux.png"
+                                                                        alt="LINUX操作系统"></a>
 
                 <div class="caption">
                     <h3>
@@ -151,8 +151,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/crypto.jsp" title="密码学"><img width="300" height="150"
-                                                                     src="/images/course/crypto.png"
-                                                                     alt="密码学"></a>
+                                                                   src="/images/course/crypto.png"
+                                                                   alt="密码学"></a>
 
                 <div class="caption">
                     <h3>
@@ -168,8 +168,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/crypto2.jsp" title="密码学课程设计"><img width="300" height="150"
-                                                                     src="/images/course/crypto2.png"
-                                                                     alt="密码学课程设计"></a>
+                                                                        src="/images/course/crypto2.png"
+                                                                        alt="密码学课程设计"></a>
 
                 <div class="caption">
                     <h3>
@@ -202,8 +202,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/math.jsp" title="信息安全数学基础"><img width="300" height="150"
-                                                                     src="/images/course/math.png"
-                                                                     alt="信息安全数学基础"></a>
+                                                                      src="/images/course/math.png"
+                                                                      alt="信息安全数学基础"></a>
 
                 <div class="caption">
                     <h3>
@@ -219,8 +219,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/steg.jsp" title="信息隐藏"><img width="300" height="150"
-                                                                     src="/images/course/steg.png"
-                                                                     alt="信息隐藏"></a>
+                                                                  src="/images/course/steg.png"
+                                                                  alt="信息隐藏"></a>
 
                 <div class="caption">
                     <h3>
@@ -236,8 +236,8 @@
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/antivirus.jsp" title="防病毒技术"><img width="300" height="150"
-                                                                     src="/images/course/antivirus.png"
-                                                                     alt="防病毒技术"></a>
+                                                                        src="/images/course/antivirus.png"
+                                                                        alt="防病毒技术"></a>
 
                 <div class="caption">
                     <h3>
@@ -259,7 +259,7 @@
 <%@include file="/common/footer.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+<script src="/js/jquery-1.11.3.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="/js/bootstrap.min.js"></script>
 </body>

@@ -22,7 +22,7 @@ public class ClassMethod {
 	public static void main(String args[]) {
 		System.out.println(FamilyMember.getSurname());
 		FamilyMember a = new FamilyMember("老三");
-		System.out.println(a.getSurname()); //
+		System.out.println(FamilyMember.getSurname()); //
 		System.out.println(a.whatIsYourName());
 		FamilyMember.changeSurname("王");
 		System.out.println(a.whatIsYourName());

@@ -1,6 +1,6 @@
 package cn.bitsec.ch6;
 
-import java.util.*;
+import java.util.Hashtable;
 
 //class A {
 //	int date;
@@ -13,10 +13,7 @@ class A {
 		A aobj = null;
 		if (obj instanceof A) {
 			aobj = (A) obj;
-			if (this.date == aobj.date)
-				return true;
-			else
-				return false;
+			return this.date == aobj.date;
 		} else
 			return false;
 	}
