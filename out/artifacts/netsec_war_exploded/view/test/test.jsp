@@ -37,8 +37,11 @@
 <%--content--%>
 <div class="container projects">
     <div class="row">
-        <div class="col-md-12">
-            <h1>基础测试</h1>
+        <div class="caption">
+            <h3>
+                <a href="index.jsp"> 首页</a> ><a href="/view/test/test.jsp"> 基础测试</a>
+            </h3>
+            <hr>
         </div>
     </div>
 </div>

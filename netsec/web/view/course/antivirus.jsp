@@ -7,7 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>
-<% String path =request.getContextPath(); String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; %>
+<% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
 <base href="<%=basePath%>">
 <html lang="zh-CN">
 <meta charset="utf-8">
@@ -32,23 +33,22 @@
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
-<%@include file="/common/header.jsp"%>
+<%@include file="/common/header.jsp" %>
 
 <%--content--%>
 <div class="container projects">
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="index.jsp"> 首页</a> ><a href="/view/message/message.jsp"> 留言板</a>
+                <a href="index.jsp"> 首页</a> > <a href="/view/course/courses.jsp"> 课程介绍</a> ><a href="/view/course/antivirus.jsp"> 防病毒技术</a>
             </h3>
             <hr>
         </div>
     </div>
 </div>
 
-
 <%--footer.jsp--%>
-<%@include file="/common/footer.jsp"%>
+<%@include file="/common/footer.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>

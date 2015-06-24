@@ -33,7 +33,7 @@
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
-<%@include file="common/header.jsp" %>
+<%@include file="/common/header.jsp" %>
 
 <%--content--%>
 <div class="container projects">
@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="caption">
                     <h3>
-                        <a href="index.jsp"> 首页</a> > 导航
+                        <a href="index.jsp"> 首页</a> >
                     </h3>
                     <hr>
                 </div>
@@ -203,7 +203,7 @@
 </div>
 
 <%--footer.jsp--%>
-<%@include file="common/footer.jsp" %>
+<%@include file="/common/footer.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>

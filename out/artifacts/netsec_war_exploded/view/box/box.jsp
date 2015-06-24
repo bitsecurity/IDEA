@@ -37,8 +37,11 @@
 <%--content--%>
 <div class="container projects">
     <div class="row">
-        <div class="col-md-12">
-            <h1>漏洞盒子</h1>
+        <div class="caption">
+            <h3>
+                <a href="index.jsp"> 首页</a> ><a href="/view/box/box.jsp"> 漏洞盒子</a>
+            </h3>
+            <hr>
         </div>
     </div>
 </div>
