@@ -37,8 +37,11 @@
 <%--content--%>
 <div class="container projects">
     <div class="row">
-        <div class="col-md-12">
-            <h1>CTF在线挑战</h1>
+        <div class="caption">
+            <h3>
+                <a href="index.jsp"> 首页</a> ><a href="/view/ctf/ctf.jsp"> CTF挑战</a>
+            </h3>
+            <hr>
         </div>
     </div>
 </div>

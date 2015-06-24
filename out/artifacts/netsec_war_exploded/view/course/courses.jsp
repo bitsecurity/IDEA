@@ -7,7 +7,8 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>
-<% String path =request.getContextPath(); String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/"; %>
+<% String path = request.getContextPath();
+    String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
 <base href="<%=basePath%>">
 <html lang="zh-CN">
 <meta charset="utf-8">
@@ -32,20 +33,162 @@
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
-<%@include file="/common/header.jsp"%>
+<%@include file="/common/header.jsp" %>
 
 <%--content--%>
 <div class="container projects">
     <div class="row">
-        <div class="col-md-12">
-            <h1>相关课程介绍</h1>
+            <div class="caption">
+                <h3>
+                    <a href="index.jsp"> 首页</a> ><a href="/view/course/courses.jsp"> 课程介绍</a>
+                </h3>
+                <hr>
+            </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                    src="/images/main/courseintro.jpg"
+                                                                    alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
         </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-3 col-lg-3 ">
+            <div class="thumbnail">
+                <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                                                                     src="/images/main/courseintro.jpg"
+                                                                     alt="相关课程介绍"></a>
+
+                <div class="caption">
+                    <h3>
+                        <a href="/view/course/courses.jsp" title="课程介绍">课程介绍</a>
+                    </h3>
+
+                    <p>
+                        《网络安全》、《无线网络安全》、《操作系统安全》、《软件安全》、《防病毒技术》等课程的培养计划、知识点介绍。
+                    </p>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 
 
 <%--footer.jsp--%>
-<%@include file="/common/footer.jsp"%>
+<%@include file="/common/footer.jsp" %>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>

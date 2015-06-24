@@ -40,9 +40,17 @@
     <div class="row">
         <div class="col-md-9">
             <div class="row">
+                <div class="caption">
+                    <h3>
+                        <a href="index.jsp"> 首页</a> > 导航
+                    </h3>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
+                        <a href="view/course/courses.jsp" title="课程介绍"><img width="252" height="252"
                                                                             src="/images/main/courseintro.jpg"
                                                                             alt="相关课程介绍"></a>
 
@@ -59,7 +67,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="/view/test/test.jsp" title="基础测试"><img width="300" height="150"
+                        <a href="/view/test/test.jsp" title="基础测试"><img width="252" height="252"
                                                                         src="/images/main/basetest.jpg"
                                                                         alt="基础知识测试"></a>
 
@@ -76,7 +84,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="/view/ctf/ctf.jsp" title="CTF"><img width="300" height="150"
+                        <a href="/view/ctf/ctf.jsp" title="CTF"><img width="252" height="252"
                                                                      src="/images/main/ctf.jpg" alt="在线CTF挑战"></a>
 
                         <div class="caption">
@@ -92,7 +100,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="/view/box/box.jsp" title="漏洞盒子"><img width="300" height="150"
+                        <a href="/view/box/box.jsp" title="漏洞盒子"><img width="252" height="252"
                                                                       src="/images/main/box.png" alt="漏洞盒子"></a>
 
                         <div class="caption">
@@ -108,7 +116,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="/view/scores/scores.jsp" title="积分兑换"><img width="300" height="150"
+                        <a href="/view/scores/scores.jsp" title="积分兑换"><img width="252" height="252"
                                                                             src="/images/main/jifen.png" alt="积分兑换"></a>
 
                         <div class="caption">
@@ -124,7 +132,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 col-lg-4 ">
                     <div class="thumbnail">
-                        <a href="/view/message/message.jsp" title="留言板"><img width="300" height="150"
+                        <a href="/view/message/message.jsp" title="留言板"><img width="252" height="252"
                                                                              src="/images/main/liuyan.png"
                                                                              alt="留言板"></a>
 

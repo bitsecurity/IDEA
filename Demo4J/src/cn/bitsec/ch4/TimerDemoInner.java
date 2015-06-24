@@ -11,7 +11,6 @@ public class TimerDemoInner {
 		ActionListener listener = new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				// TODO Auto-generated method stub
 				Date now = new Date();
 				DateFormat df = DateFormat.getDateInstance();
 				System.out.println("The Time is " + df.format(now));
@@ -34,7 +33,6 @@ public class TimerDemoInner {
 //		Timer t = new Timer(10000, new ActionListener(){
 //			@Override
 //			public void actionPerformed(ActionEvent e) {
-//				// TODO Auto-generated method stub
 //				Date now = new Date();
 //				DateFormat df = DateFormat.getDateInstance();
 //				System.out.println("The Time is " + df.format(now));

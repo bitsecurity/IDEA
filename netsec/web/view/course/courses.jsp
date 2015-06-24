@@ -38,6 +38,14 @@
 <%--content--%>
 <div class="container projects">
     <div class="row">
+            <div class="caption">
+                <h3>
+                    <a href="index.jsp"> 首页</a> ><a href="/view/course/courses.jsp"> 课程介绍</a>
+                </h3>
+                <hr>
+            </div>
+    </div>
+    <div class="row">
         <div class="col-sm-4 col-md-3 col-lg-3 ">
             <div class="thumbnail">
                 <a href="/view/course/courses.jsp" title="课程介绍"><img width="300" height="150"
