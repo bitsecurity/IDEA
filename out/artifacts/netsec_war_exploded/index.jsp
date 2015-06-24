@@ -158,48 +158,48 @@
                             </h3>
                         </div>
                         <div class="text">
-                        <ul>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                            </li>
-                            <li>
-                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                1news 1news 1news 1news 1
-                            </li>
-                            <li>
-                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                1news 1news 1news 1news 1
-                            </li>
-                            <li>
-                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                1news 1news 1news 1news 1
-                            </li>
-                            <li>
-                                news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                1news 1news 1news 1news 1
-                            </li>
-                        </ul>
+                            <ul>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                                <li>
+                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
+                                    1news 1news 1news 1news 1
+                                </li>
+                            </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
 </div>
 
 <%--footer.jsp--%>
