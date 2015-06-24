@@ -3,7 +3,7 @@
   User: BitSec
   Date: 2015/6/19
   Time: 11:21
-  To change this template use File | Settings | File Templates.
+  Content: 漏洞盒子
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>

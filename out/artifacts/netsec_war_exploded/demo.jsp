@@ -42,7 +42,7 @@
             <h3>
                 <a href="index.jsp"> 首页</a> > 导航
             </h3>
-             <a href="HelloWorld">hellood</a>
+            <a href="HelloWorld">hellood</a>
             <hr>
         </div>
     </div>

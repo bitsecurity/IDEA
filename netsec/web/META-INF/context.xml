@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="jdbc/netsec"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/netsec?autoReconnect=true"
+              username="root"
+              password="cumt23456"
+              maxActive="100"
+              maxIdle="30"
+              maxWait="10000"/>
+</Context>
