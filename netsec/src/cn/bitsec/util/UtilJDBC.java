@@ -14,7 +14,7 @@ import java.sql.SQLException;
  */
 public class UtilJDBC {
     /**
-     * ��ȡ���ݿ�����
+     * 工具类：获取数据库连接
      *
      * @return Connection
      */
@@ -31,14 +31,14 @@ public class UtilJDBC {
     }
 
     /**
-     * �ر����ݿ����ӵ�
+     * 关闭数据库连接等
      *
      * @param connection
      * @param pstmt
      * @param rs
      */
     public static void closeConnction(Connection connection, PreparedStatement pstmt, ResultSet rs) {
-        //�ر����ݿ�����Connection
+        //关闭数据库连接Connection
         try {
             if (connection != null) {
                 connection.close();
@@ -46,14 +46,14 @@ public class UtilJDBC {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        //�ر�Ԥ�����ѯPreparedStatement
+        //关闭PreparedStatement
         try {
             if (pstmt != null)
                 pstmt.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        //�رս����ResultSet
+        //关闭ResultSet
         try {
             if (rs != null)
                 rs.close();

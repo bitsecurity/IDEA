@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> ><a href="/view/scores/scores.jsp"> 积分兑换</a>
+                <a href="#"> 首页</a> >><a href="/view/scores/scores.jsp"> 积分兑换</a>
             </h3>
         </div>
     </div>

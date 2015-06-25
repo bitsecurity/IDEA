@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> ><a href="/view/box/box.jsp"> 漏洞盒子</a>
+                <a href="#"> 首页</a> >><a href="/view/box/box.jsp"> 漏洞盒子</a>
             </h3>
             <hr>
         </div>

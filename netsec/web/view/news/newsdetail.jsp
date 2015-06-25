@@ -41,7 +41,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> > <a href="/Index?class=1">新闻公告</a>
+                <a href="#"> 首页</a> >> <a href="/Index?class=1">新闻公告</a>
             </h3>
 
         </div>

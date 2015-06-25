@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> ><a href="/view/ctf/ctf.jsp"> CTF挑战</a>
+                <a href="#"> 首页</a> >><a href="/view/ctf/ctf.jsp"> CTF挑战</a>
             </h3>
         </div>
     </div>

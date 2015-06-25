@@ -43,7 +43,7 @@
             <div class="row">
                 <div class="caption">
                     <h3>
-                        <a href="#"> 首页</a> >
+                        <a href="#"> 首页</a>
                     </h3>
                 </div>
             </div>

@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> > <a href="/view/course/courses.jsp"> 课程介绍</a> ><a
+                <a href="#"> 首页</a> >> <a href="/view/course/courses.jsp"> 课程介绍</a> >><a
                     href="/view/course/secpro.jsp"> 安全协议</a>
 
             </h3>

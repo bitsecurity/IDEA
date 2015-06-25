@@ -41,7 +41,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> > <a href="/view/course/courses.jsp"> 课程介绍</a> ><a
+                <a href="#"> 首页</a> >> <a href="/view/course/courses.jsp"> 课程介绍</a> >><a
                     href="/view/course/wireless.jsp"> 无线网络安全</a>
 
             </h3>
