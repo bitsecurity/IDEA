@@ -10,11 +10,11 @@ import java.sql.SQLException;
 
 /**
  * Created by bitsec on 2015/6/25.
- * ¹¤¾ßÀà£º»ñÈ¡Êý¾Ý¿âÁ¬½Ó
+ * ï¿½ï¿½ï¿½ï¿½ï¿½à£ºï¿½ï¿½È¡ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½
  */
 public class UtilJDBC {
     /**
-     * »ñÈ¡Êý¾Ý¿âÁ¬½Ó
+     * ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½
      *
      * @return Connection
      */
@@ -31,14 +31,14 @@ public class UtilJDBC {
     }
 
     /**
-     * ¹Ø±ÕÊý¾Ý¿âÁ¬½ÓµÈ
+     * ï¿½Ø±ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½Óµï¿½
      *
      * @param connection
      * @param pstmt
      * @param rs
      */
     public static void closeConnction(Connection connection, PreparedStatement pstmt, ResultSet rs) {
-        //¹Ø±ÕÊý¾Ý¿âÁ¬½ÓConnection
+        //ï¿½Ø±ï¿½ï¿½ï¿½ï¿½Ý¿ï¿½ï¿½ï¿½ï¿½ï¿½Connection
         try {
             if (connection != null) {
                 connection.close();
@@ -46,14 +46,14 @@ public class UtilJDBC {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        //¹Ø±ÕÔ¤±àÒë²éÑ¯PreparedStatement
+        //ï¿½Ø±ï¿½Ô¤ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¯PreparedStatement
         try {
             if (pstmt != null)
                 pstmt.close();
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        //¹Ø±Õ½á¹û¼¯ResultSet
+        //ï¿½Ø±Õ½ï¿½ï¿½ï¿½ï¿½ResultSet
         try {
             if (rs != null)
                 rs.close();

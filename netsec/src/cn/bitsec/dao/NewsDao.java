@@ -24,7 +24,7 @@ public class NewsDao {
         list = new ArrayList<NewsBean>();
 
         try {
-            conn = new UtilJDBC().getConnection();
+            conn = UtilJDBC.getConnection();
             pstmt = conn.prepareStatement(sql);
             rs = pstmt.executeQuery();
 
