@@ -290,7 +290,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     margin-bottom: 10px;
 }
 
-.projects .news .caption .more {
+.projects .news .caption .more{
+    float: right;
+}
+
+.projects .date{
     float: right;
 }
 

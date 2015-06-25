@@ -40,13 +40,13 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> ><a href="/view/download/download.jsp"> 资料下载</a>
+                <a href="#"> 首页</a> > <a href="/view/news/news.jsp">新闻公告</a>
             </h3>
+
             <hr>
         </div>
     </div>
 </div>
-
 
 <%--footer.jsp--%>
 <%@include file="/common/footer.jsp" %>

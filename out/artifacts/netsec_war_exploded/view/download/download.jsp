@@ -29,7 +29,7 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <head>
-    <title>网络安全教学与实验平台</title>
+    <link rel="shortcut icon" href="images/logo/ico.png" />
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="index.jsp"> 首页</a> ><a href="/view/download/download.jsp"> 资料下载</a>
+                <a href="#"> 首页</a> ><a href="/view/download/download.jsp"> 资料下载</a>
             </h3>
             <hr>
         </div>

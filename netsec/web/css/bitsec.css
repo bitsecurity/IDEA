@@ -294,6 +294,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     float: right;
 }
 
+.projects .date {
+    float: right;
+}
+
 .projects .news .caption a:hover, .projects .news .caption a:focus {
     text-decoration: none
 }

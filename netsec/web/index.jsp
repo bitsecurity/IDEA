@@ -6,6 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--设置页面中所有链接href的基准URL--%>
 <% String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
@@ -29,7 +30,7 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <head>
-    <title>网络安全教学与实验平台</title>
+    <link rel="shortcut icon" href="images/logo/ico.png"/>
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
@@ -42,7 +43,7 @@
             <div class="row">
                 <div class="caption">
                     <h3>
-                        <a href="index.jsp"> 首页</a> >
+                        <a href="#"> 首页</a> >
                     </h3>
                 </div>
             </div>
@@ -154,45 +155,23 @@
                     <div class="news">
                         <div class="caption">
                             <h3>
-                                新闻公告<span class="more"><a href="index.jsp">more..</a></span>
+                                新闻公告<span class="more"><a href="/Index?class=1">more..</a></span>
                             </h3>
                         </div>
                         <div class="text">
                             <ul>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻新闻
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
-                                <li>
-                                    news1 news1 news 1 fad news 1news 1news 1news 1news 1news 1news 1news 1news 1news
-                                    1news 1news 1news 1news 1
-                                </li>
+                                <c:forEach items="${list}" var="newsBean">
+                                    <li><h4>
+                                        <c:if test="${newsBean['newsClass']==true}">
+                                            【新闻】
+                                        </c:if>
+                                        <c:if test="${newsBean['newsClass']==false}">
+                                            【公告】
+                                        </c:if>
+                                        <a href="#"> ${newsBean["title"]}</a><span
+                                            class="date">${newsBean["date"]}</span></h4></li>
+                                    <br/>
+                                </c:forEach>
                             </ul>
                     </div>
                 </div>

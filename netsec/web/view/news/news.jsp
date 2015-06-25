@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: BitSec
@@ -40,13 +41,30 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> ><a href="/view/download/download.jsp"> 资料下载</a>
+                <a href="#"> 首页</a> > <a href="/Index?class=1">新闻公告</a>
             </h3>
-            <hr>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-9">
+            <div class="text"></div>
+            <c:forEach items="${list}" var="newsBean">
+                <li><h4>
+                    <c:if test="${newsBean['newsClass']==true}">
+                        【新闻】
+                    </c:if>
+                    <c:if test="${newsBean['newsClass']==false}">
+                        【公告】
+                    </c:if>
+                    <a href="#"> ${newsBean["title"]}</a><span class="date">${newsBean["date"]}</span></h4></li>
+            </c:forEach>
         </div>
     </div>
 </div>
-
+</div>
+</div>
 
 <%--footer.jsp--%>
 <%@include file="/common/footer.jsp" %>

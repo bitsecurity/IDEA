@@ -3,7 +3,7 @@
   User: BitSec
   Date: 2015/6/19
   Time: 11:21
-  To change this template use File | Settings | File Templates.
+  Content: 漏洞盒子
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <%--设置页面中所有链接href的基准URL--%>
@@ -29,7 +29,7 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <head>
-    <title>网络安全教学与实验平台</title>
+    <link rel="shortcut icon" href="images/logo/ico.png" />
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="index.jsp"> 首页</a> ><a href="/view/box/box.jsp"> 漏洞盒子</a>
+                <a href="#"> 首页</a> ><a href="/view/box/box.jsp"> 漏洞盒子</a>
             </h3>
             <hr>
         </div>
