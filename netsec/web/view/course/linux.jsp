@@ -44,7 +44,6 @@
                     href="/view/course/linux.jsp"> LINUX操作系统</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

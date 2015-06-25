@@ -44,7 +44,6 @@
                     href="/view/course/secpro.jsp"> 安全协议</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

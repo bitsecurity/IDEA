@@ -42,7 +42,6 @@
             <h3>
                 <a href="#"> 首页</a> ><a href="/view/scores/scores.jsp"> 积分兑换</a>
             </h3>
-            <hr>
         </div>
     </div>
 </div>

@@ -45,7 +45,6 @@
                     href="/view/course/wireless.jsp"> 无线网络安全</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

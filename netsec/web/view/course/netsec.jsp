@@ -43,7 +43,6 @@
                 <a href="#"> 首页</a> > <a href="/view/course/courses.jsp"> 课程介绍</a> ><a
                     href="/view/course/netsec.jsp"> 网络安全</a>
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

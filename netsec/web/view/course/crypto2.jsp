@@ -44,7 +44,7 @@
                     href="/view/course/crypto2.jsp"> 密码学课程设计</a>
 
             </h3>
-            <hr>
+
         </div>
     </div>
     <div class="row">

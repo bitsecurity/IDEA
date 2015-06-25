@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: BitSec
@@ -40,12 +41,29 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> > <a href="/view/news/news.jsp">新闻公告</a>
+                <a href="#"> 首页</a> > <a href="/Index?class=1">新闻公告</a>
             </h3>
 
-            <hr>
         </div>
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <c:forEach items="${list}" var="newsBean">
+                <h3 align="center">
+                        ${newsBean["title"]} <br/>
+                </h3>
+
+                <div align="center">
+                        ${newsBean["date"]} by ${newsBean["author"]}
+                </div>
+                <div>
+                        ${newsBean["content"]}
+                </div>
+            </c:forEach>
+        </div>
+    </div>
+</div>
+</div>
 </div>
 
 <%--footer.jsp--%>

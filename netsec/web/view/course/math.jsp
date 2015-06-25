@@ -44,7 +44,6 @@
                     href="/view/course/math.jsp"> 信息安全数学基础</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

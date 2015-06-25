@@ -44,7 +44,6 @@
                     href="/view/course/os.jsp"> 操作系统安全</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

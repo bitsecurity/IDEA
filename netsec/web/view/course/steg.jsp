@@ -44,7 +44,6 @@
                     href="/view/course/steg.jsp"> 信息隐藏</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

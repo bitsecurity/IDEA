@@ -13,19 +13,21 @@ import java.util.Comparator;
 /**
  * Created by ibits on 2015/6/25.
  */
-public class NewsDao {
+public class NewsDaoDetail {
     private Connection conn = null;
     private PreparedStatement pstmt = null;
     private ResultSet rs = null;
-    private String sql = "SELECT * FROM  news";
+    private String sql = null;
     private ArrayList<NewsBean> list;
 
-    public ArrayList<NewsBean> getNewsBeanList() {
+    public ArrayList<NewsBean> getNewsBeanList(String id) {
         list = new ArrayList<NewsBean>();
+        sql = "SELECT * FROM news WHERE id = ?";
 
         try {
             conn = new UtilJDBC().getConnection();
             pstmt = conn.prepareStatement(sql);
+            pstmt.setInt(1, Integer.parseInt(id));
             rs = pstmt.executeQuery();
 
             while (rs.next()) {
@@ -57,7 +59,6 @@ public class NewsDao {
                 return new Integer(newsBean2.getId()).compareTo(new Integer(newsBean1.getId()));
             }
         });
-
         return list;
     }
 

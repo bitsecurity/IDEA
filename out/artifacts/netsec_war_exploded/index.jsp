@@ -5,8 +5,8 @@
   Time: 11:21
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"  %>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--设置页面中所有链接href的基准URL--%>
 <% String path = request.getContextPath();
     String basePath = request.getScheme() + "://" + request.getServerName() + ":" + request.getServerPort() + path + "/"; %>
@@ -30,7 +30,7 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <head>
-    <link rel="shortcut icon" href="images/logo/ico.png" />
+    <link rel="shortcut icon" href="images/logo/ico.png"/>
 </head>
 <body class="home-template">
 <%--Header.jsp--%>
@@ -159,18 +159,18 @@
                             </h3>
                         </div>
                         <div class="text">
-                            <ul>
+                            <dl>
                                 <c:forEach items="${list}" var="newsBean">
-                                    <li><h4>
-                                        <c:if test="${newsBean['newsClass']==true}">
-                                            【新闻】
+                                    <dt><h4>
+                                        <c:if test="${newsBean['newsClass']==true}">【新闻】
                                         </c:if>
-                                        <c:if test="${newsBean['newsClass']==false}">
-                                            【公告】
+                                        <c:if test="${newsBean['newsClass']==false}">【公告】
                                         </c:if>
-                                        <a href="#"> ${newsBean["title"]}</a><span class="date">${newsBean["date"]}</span></h4></li><br/>
+                                        <a href="/Index?class=1&id=${newsBean['id']}"> ${newsBean["title"]}</a><span
+                                            class="date">${newsBean["date"]}</span></h4></dt>
+                                    <br/>
                                 </c:forEach>
-                            </ul>
+                            </dl>
                     </div>
                 </div>
             </div>

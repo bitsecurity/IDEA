@@ -42,7 +42,6 @@
             <h3>
                 <a href="#"> 首页</a> ><a href="/view/message/message.jsp"> 留言板</a>
             </h3>
-            <hr>
         </div>
     </div>
 </div>

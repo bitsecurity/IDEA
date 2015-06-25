@@ -237,12 +237,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
     overflow-y: hidden;
     color: #555;
     display: block;
-    border-left: 1px solid #e5e5e5;
-    border-bottom: 1px solid #e5e5e5;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .projects .thumbnail .caption {
@@ -262,18 +261,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
 
 .projects .news {
     display: block;
-    border-left: 1px solid #e5e5e5;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     max-width: 310px;
     border-radius: 0;
     height: inherit;
+    border-left: 1px solid #e5e5e5;
 }
 
 .projects .news .caption {
     height: inherit;
-    padding-left: 20px;
+    padding-left: 10px;
     overflow-y: hidden;
     color: #555;
     border-bottom: 1px solid #e5e5e5;
@@ -283,18 +282,18 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, .lead {
 
 .projects .news .text {
     height: inherit;
-    padding-left: 20px;
+    padding-left: 10px;
     overflow-y: hidden;
     color: #555;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.projects .news .caption .more{
+.projects .news .caption .more {
     float: right;
 }
 
-.projects .date{
+.projects .date {
     float: right;
 }
 
@@ -568,7 +567,7 @@ article.page .post-content h2 {
 }
 
 #btn-jike-video:after {
-    content: "ÐÂ";
+    content: "ï¿½ï¿½";
     color: #fff;
     position: absolute;
     top: 1px;

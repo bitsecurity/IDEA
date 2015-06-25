@@ -44,7 +44,6 @@
                     href="/view/course/antivirus.jsp"> 防病毒技术</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

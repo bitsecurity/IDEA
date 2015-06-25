@@ -42,7 +42,6 @@
             <h3>
                 <a href="#"> 首页</a> ><a href="/view/download/download.jsp"> 资料下载</a>
             </h3>
-            <hr>
         </div>
     </div>
 </div>

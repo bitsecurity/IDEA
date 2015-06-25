@@ -29,7 +29,7 @@
 <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 <head>
-    <link rel="shortcut icon" href="images/logo/ico.png" />
+    <link rel="shortcut icon" href="images/logo/ico.png"/>
 </head>
 <body class="home-template">
 <%--Header.jsp--%>

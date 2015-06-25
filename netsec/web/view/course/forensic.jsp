@@ -44,15 +44,12 @@
                     href="/view/course/forensic.jsp"> 计算机取证</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">
         <div class="section our-team" id="our-team">
             <div class="container">
-
-
-                <ul id="myTab" class="nav nav-tabs" style="background:#45c4da; font-family:楷体; font-size:20px;">
+                <ul id="myTab" class="nav nav-tabs" style="background:#181818; font-family:楷体; font-size:20px;">
                     <li class="active"><a href="#课程基本介绍" data-toggle="tab">课程基本介绍</a></li>
                     <li><a href="#课程内容" data-toggle="tab">课程内容</a></li>
                     &nbsp;&nbsp;&nbsp;&nbsp;
@@ -67,59 +64,49 @@
                      style="background:#FFFAEA;height:600px;color:#000;margin-top:10px;overflow-y:scroll;padding:10px;">
                     <div class="tab-pane fade in active" id="课程基本介绍" style="padding:20px;">
                         <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">课程的性质、目的及任务:</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;本课程为信息安全专业选修课程。
-                            目的在于培养学生能够利用密码学解决网络中的种种安全难题。安全协议是能够完成某项特定的任务并满足安全需求的协议，
-                            是构建安全平台时所使用的与安全防护有关的协议，是各种安全技术和策略具体实现时共同遵循的规定。
-                            通过本课程的学习，能够使学生掌握安全协议的设计与分析方法。
+                            本课程为信息安全专业选修课程。
+                            目的是使学生掌握计算机取证的基本原则，熟悉计算机证据的获取、分析、保管等技术的基本原理与方法，掌握基本的计算机取证工具的使用，具备从事计算机取证相关领域的技术与管理工作的初步能力。
                         </p>
+
 
 
                         <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">适用专业</b><br/>
                             &nbsp;&nbsp;&nbsp;&nbsp;信息安全专业</p>
-
                         <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">先修课程</b><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;信息安全数学基础、密码学、网络安全</p>
-
+                            &nbsp;&nbsp;&nbsp;&nbsp;操作系统</p>
                         <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">课程的基本要求</b><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;通过该课程的学习，使学生能够认识到密码学的用途是解决现实世界中的种种难题。围绕机密性、完整性、认证性、匿名性、公平性等安全需求，
-                            设计满足应用需要的安全协议。
+                            &nbsp;&nbsp;&nbsp;&nbsp;通过本课程的学习，学生要了解计算机取证的原则和基本法律、法规理念，掌握计算机取证的基本原理与技术，包括文件系统取证、内存取证、网络环境下的计算机取证。
                         </p>
                     </div>
 
 
                     <div class="tab-pane fade" id="课程内容" style="padding:20px;">
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第1章 安全协议概述与密码学基础</b><br/>
-                            &nbsp;&nbsp;&nbsp;&nbsp;常用的安全协议、安全协议的属性、Dolev-Yao模型、对安全协议的攻击、安全协议的设计原则、机密性的实现、完整性的实现</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 1．课堂讲授的教学内容</b></p><br>
+                        1)计算机取证基本概念<br>
+                        取证的意义、取证的发展概况、取证的法律含义。<br>
+                        2)信息犯罪<br>
+                        各类信息犯罪概述，非授权访问，拒绝访问攻击，身份窃贼，网络欺诈，网络色情犯罪，网络盯梢，网络诽谤等<br>
+                        3)计算机犯罪场景调查<br>
+                        计算机犯罪场景，现场获取，获取的工具，获取的电子设备，encase简介，winhex简介<br>
+                        4)文件系统分析<br>
+                        硬盘结构，硬盘镜像，硬盘上的证据，FAT文件系统，NTFS文件系统<br>
+                        5) 内存取证<br>
+                        内存取证的必要性，内存中的证据，获取内存证据<br>
+                        6)网络取证<br>
+                        网络包取证分析，浏览器取证，电子邮件取证。<br>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第2章 基本的安全协议</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;秘密分割、秘密共享、阈下信道、比特承诺、公平的硬币抛掷、智力扑克、密钥托管、不经意传输</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 2．研讨的教学内容</b></p>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第3章 认证与密钥建立</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;
-                            认证密钥建立、密钥协商、密钥分发、密钥确认、单向认证、双向认证、基于对称密码的认证、基于公钥密码的认证、基于口令的认证、可否认认证、匿名认证、会议密钥协商、 </p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 3. 实验的教学内容</b></p>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第4章 零知识证明</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;零知识证明、身份鉴别方案、图同构的零知识证明、拥有平方根的零知识这么、拥有离散对数的零知识证明</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 4. 实习的内容</b></p>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第5章 选择性泄露</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;信任建立、信任协商、数字凭证、泄露多个凭证、Merkle哈希树、Brands方案</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 5．上机的教学内容</b></p>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第6章 数字签名变种</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;盲签名、部分盲签名、公平盲签名、群签名、环签名、代理签名、认证加密、批签名、批验证、其他数字签名变种</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 6．自主学习的教学内容</b></p>
 
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第7章 非否认协议</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;非否认概念、内联TTP、在线TTP、离线TTP、无TTP参与的方案、有TTP参与的方案、Markowitch-Roggeman方案、Zhou-Gollmann方案
-                        </p>
-
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第8章 公平交换协议</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;公平交换概念、秘密的同时交换，同时签约，数字证明邮件，Netbill</p>
-
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第9章 安全电子商务协议</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;电子选举，电子现金，电子拍卖，电子交易协议</p>
-
-                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;">第10章 安全多方计算</b></br>
-                            &nbsp;&nbsp;&nbsp;&nbsp;安全多方计算概念、实例</p>
+                        <p style="font-size:18px;font-family:楷体;"><b style="font-weight:bold;"> 7．其它的教学内容</b></p>
                     </div>
 
 
@@ -141,7 +128,7 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td style="width:20%">安全协议的概述与密码学基础
+                                <td style="width:20%">概述
                                 </td>
                                 <td>2</td>
                                 <td></td>
@@ -152,17 +139,7 @@
                                 <td>2</td>
                             </tr>
                             <tr>
-                                <td style="width:20%">基本的安全协议</td>
-                                <td>4</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>4</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">认证与密钥建立</td>
+                                <td style="width:20%">信息犯罪</td>
                                 <td>6</td>
                                 <td></td>
                                 <td></td>
@@ -172,57 +149,7 @@
                                 <td>6</td>
                             </tr>
                             <tr>
-                                <td style="width:20%">零知识证明</td>
-                                <td>2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">选择性泄漏协议</td>
-                                <td>2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">数字签名变种</td>
-                                <td>6</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>6</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">非否认协议</td>
-                                <td>2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">公平交换协议</td>
-                                <td>2</td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td>2</td>
-                            </tr>
-                            <tr>
-                                <td style="width:20%">安全电子商务协议</td>
+                                <td style="width:20%">计算机犯罪场景调查</td>
                                 <td>4</td>
                                 <td></td>
                                 <td></td>
@@ -232,14 +159,34 @@
                                 <td>4</td>
                             </tr>
                             <tr>
-                                <td style="width:20%">安全多方计算</td>
-                                <td>2</td>
+                                <td style="width:20%">文件系统分析</td>
+                                <td>8</td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
-                                <td>2</td>
+                                <td>8</td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%">内存取证</td>
+                                <td>4</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>4</td>
+                            </tr>
+                            <tr>
+                                <td style="width:20%">网络取证</td>
+                                <td>8</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>8</td>
                             </tr>
                             <tr>
                                 <td style="width:20%">合计</td>
@@ -260,13 +207,10 @@
 
 
                         <p style="font-size:16px;font-family:楷体;"><b style="font-weight:bold;">主要参考书：</b></br>
-                            &nbsp;&nbsp;[1] 曹天杰 张永平 汪楚娇 编著，安全协议，北京邮电大学出版社，2009年<br/>
-                            &nbsp;&nbsp;[2] Bruce Schneier, Applied Cryptography, Second Edition: Protocols, Algorithms,
-                            and Source Code in C,1995<br/>
-                            &nbsp;&nbsp;[3] 卫剑钒，陈钟　编著 安全协议分析与设计, 人民邮电出版社2010.11<br/>
-                            &nbsp;&nbsp;[4] Giampaolo Bella, Formal Correctness of Security Protocols, Springer-Verlag
-                            Berlin Heidelberg, 2007<br/>
-                        </p>
+                            &nbsp;&nbsp;[1] Bill Nelson, Amelia Phillips,Christopher Steuart, Guide to Computer
+                            Forensics and Investigations, Fourth Edition, Course Technology, 2010<br/>
+                            &nbsp;&nbsp;[2] 美)法默 河径沙等译 计算机取证 机械工业出版社 2007<br/>
+                            &nbsp;&nbsp;[3] 王永全，齐曼 主编, 信息犯罪与计算机取证, 北京大学出版社2010.8<br/>
 
                         <p style="font-size:16px;font-family:楷体;"><b
                                 style="font-weight:bold;">评价方式（包括作业、测验、考试等）:</b></br>
@@ -274,14 +218,12 @@
 
                         <p style="font-size:16px;font-family:楷体;"><b style="font-weight:bold;">说明:</b></br>
                             &nbsp;&nbsp;&nbsp;&nbsp;包括：与相关课程的关系、对自学内容的指导意见、其他专业运用此大纲的意见等。
-                            网络安全是一门理论性和实践性兼顾的综合课程。学习本课程需要计算机网络和操作系统的相关知识。</p>
+                            有关课堂讨论可根据教学情况安排。</p>
 
                         <p style="font-size:16px;font-family:楷体;"><b style="font-weight:bold;">制定者：</b>
                             曹天杰 </p>
-
                         <p style="font-size:16px;font-family:楷体;"><b style="font-weight:bold;">审定者：</b>
                             林果园 </p>
-
                         <p style="font-size:16px;font-family:楷体;"><b style="font-weight:bold;">批准者：</b>
                             周&nbsp;&nbsp;勇 </p>
                     </div>
@@ -293,6 +235,9 @@
 
 
     </div>
+
+
+</div>
 </div>
 
 <%--footer.jsp--%>

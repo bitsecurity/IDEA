@@ -159,20 +159,19 @@
                             </h3>
                         </div>
                         <div class="text">
-                            <ul>
+                            <dl>
                                 <c:forEach items="${list}" var="newsBean">
-                                    <li><h4>
-                                        <c:if test="${newsBean['newsClass']==true}">
-                                            【新闻】
+                                    <dt>
+                                    <h4>
+                                        <c:if test="${newsBean['newsClass']==true}">【新闻】
                                         </c:if>
-                                        <c:if test="${newsBean['newsClass']==false}">
-                                            【公告】
+                                        <c:if test="${newsBean['newsClass']==false}">【公告】
                                         </c:if>
-                                        <a href="#"> ${newsBean["title"]}</a><span
-                                            class="date">${newsBean["date"]}</span></h4></li>
+                                        <a href="/Index?class=1&id=${newsBean['id']}"> ${newsBean["title"]}</a><span
+                                            class="date">${newsBean["date"]}</span></h4></dt>
                                     <br/>
                                 </c:forEach>
-                            </ul>
+                            </dl>
                     </div>
                 </div>
             </div>

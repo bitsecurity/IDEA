@@ -44,7 +44,6 @@
                     href="/view/course/softsec.jsp"> 软件安全</a>
 
             </h3>
-            <hr>
         </div>
     </div>
     <div class="row">

@@ -2,6 +2,7 @@ package cn.bitsec.servlet;
 
 import cn.bitsec.bean.NewsBean;
 import cn.bitsec.dao.NewsDao;
+import cn.bitsec.dao.NewsDaoDetail;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -20,16 +21,26 @@ public class Index extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         NewsDao newsDao = new NewsDao();
+        ArrayList<NewsBean> list = null;
         req.setCharacterEncoding("utf-8");
         String tag = req.getParameter("class");
-        String sql = "select * from news";
-
-        ArrayList<NewsBean> list = newsDao.getNewsBeanList(sql);
+        String id = req.getParameter("id");
         req.setCharacterEncoding("UTF-8");
-        req.setAttribute("list", list);
+
         if (tag != null && tag.equals("1")) {
-            req.getRequestDispatcher("/view/news/news.jsp").forward(req, resp);
+            if (id != null) {
+                NewsDaoDetail newsDaoDetail = new NewsDaoDetail();
+                list = newsDaoDetail.getNewsBeanList(id);
+                req.setAttribute("list", list);
+                req.getRequestDispatcher("/view/news/newsdetail.jsp").forward(req, resp);
+            } else {
+                list = newsDao.getNewsBeanList();
+                req.setAttribute("list", list);
+                req.getRequestDispatcher("/view/news/news.jsp").forward(req, resp);
+            }
         } else {
+            list = newsDao.getNewsBeanList();
+            req.setAttribute("list", list);
             req.getRequestDispatcher("/index.jsp").forward(req, resp);
         }
     }
