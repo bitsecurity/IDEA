@@ -34,12 +34,12 @@ public class Index extends HttpServlet {
                 req.setAttribute("list", list);
                 req.getRequestDispatcher("/view/news/newsdetail.jsp").forward(req, resp);
             } else {
-                list = newsDao.getNewsBeanList();
+                list = newsDao.getNewsBeanList(false);
                 req.setAttribute("list", list);
                 req.getRequestDispatcher("/view/news/news.jsp").forward(req, resp);
             }
         } else {
-            list = newsDao.getNewsBeanList();
+            list = newsDao.getNewsBeanList(true);
             req.setAttribute("list", list);
             req.getRequestDispatcher("/index.jsp").forward(req, resp);
         }

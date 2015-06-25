@@ -47,7 +47,8 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10">
             <c:forEach items="${list}" var="newsBean">
                 <h3 align="center">
                         ${newsBean["title"]} <br/>
@@ -55,7 +56,10 @@
 
                 <div align="center">
                         ${newsBean["date"]} by ${newsBean["author"]}
+                            <br/>
+                            <br/>
                 </div>
+
                 <div>
                         ${newsBean["content"]}
                 </div>

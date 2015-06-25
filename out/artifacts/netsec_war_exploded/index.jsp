@@ -161,7 +161,8 @@
                         <div class="text">
                             <dl>
                                 <c:forEach items="${list}" var="newsBean">
-                                    <dt><h4>
+                                    <dt>
+                                    <h4>
                                         <c:if test="${newsBean['newsClass']==true}">【新闻】
                                         </c:if>
                                         <c:if test="${newsBean['newsClass']==false}">【公告】

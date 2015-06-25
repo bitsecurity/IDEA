@@ -20,7 +20,7 @@ public class NewsDao {
     private String sql = "SELECT * FROM  news";
     private ArrayList<NewsBean> list;
 
-    public ArrayList<NewsBean> getNewsBeanList() {
+    public ArrayList<NewsBean> getNewsBeanList(boolean flag) {
         list = new ArrayList<NewsBean>();
 
         try {
@@ -41,7 +41,6 @@ public class NewsDao {
 
                 list.add(newsBean);
             }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -57,6 +56,9 @@ public class NewsDao {
                 return new Integer(newsBean2.getId()).compareTo(new Integer(newsBean1.getId()));
             }
         });
+
+        //通过flag判断请求来自index.jsp还是news.jsp,如果来自index.jsp,则只保留10条最新的消息！
+        if (flag && list.size() > 10) list = (ArrayList<NewsBean>) list.subList(0, 9);
 
         return list;
     }
