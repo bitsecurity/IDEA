@@ -7,8 +7,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by ibits on 2015/6/25.
@@ -17,7 +15,7 @@ public class NewsDao {
     private Connection conn = null;
     private PreparedStatement pstmt = null;
     private ResultSet rs = null;
-    private String sql = "SELECT * FROM  news";
+    private String sql = "SELECT * FROM news ORDER BY pinned DESC, id DESC";
     private ArrayList<NewsBean> list;
 
     public ArrayList<NewsBean> getNewsBeanList(boolean flag) {
@@ -46,16 +44,6 @@ public class NewsDao {
         } finally {
             UtilJDBC.closeConnction(conn, pstmt, rs);
         }
-
-        //根据id进行排序
-        Collections.sort(list, new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                NewsBean newsBean1 = (NewsBean) o1;
-                NewsBean newsBean2 = (NewsBean) o2;
-                return new Integer(newsBean2.getId()).compareTo(new Integer(newsBean1.getId()));
-            }
-        });
 
         //通过flag判断请求来自index.jsp还是news.jsp,如果来自index.jsp,则只保留10条最新的消息！
         if (flag && list.size() > 10) list = (ArrayList<NewsBean>) list.subList(0, 9);

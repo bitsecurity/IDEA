@@ -7,8 +7,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 
 /**
  * Created by ibits on 2015/6/25.
@@ -50,15 +48,6 @@ public class NewsDaoDetail {
             UtilJDBC.closeConnction(conn, pstmt, rs);
         }
 
-        //根据id进行排序
-        Collections.sort(list, new Comparator() {
-            @Override
-            public int compare(Object o1, Object o2) {
-                NewsBean newsBean1 = (NewsBean) o1;
-                NewsBean newsBean2 = (NewsBean) o2;
-                return new Integer(newsBean2.getId()).compareTo(new Integer(newsBean1.getId()));
-            }
-        });
         return list;
     }
 
