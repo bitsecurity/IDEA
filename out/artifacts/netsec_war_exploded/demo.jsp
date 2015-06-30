@@ -40,7 +40,7 @@
     <div class="row">
         <div class="caption">
             <h3>
-                <a href="#"> 首页</a> > 导航
+                <a href="#"> 首页</a> >> 导航
             </h3>
         </div>
     </div>

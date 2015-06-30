@@ -38,8 +38,8 @@
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right hidden-sm">
-                <li><a href="#">登录</a></li>
-                <li><a href="#">注册</a></li>
+                <li><a href="/login.html">登录</a></li>
+                <li><a href="/register.html">注册</a></li>
             </ul>
         </div>
     </div>
