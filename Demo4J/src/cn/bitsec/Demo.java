@@ -1,14 +1,14 @@
 package cn.bitsec;
 
-import java.awt.*;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Vector;
 
-import javax.swing.*;
-
+/**
+ * This class Demo is ...
+ *
+ * @author bitsec
+ * @version 0.1
+ */
 public class Demo {
-
     public static void main(String[] args) throws IOException {
         int a = 0;
         char b;
