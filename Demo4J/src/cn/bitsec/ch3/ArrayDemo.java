@@ -3,7 +3,6 @@ package cn.bitsec.ch3;
 import java.util.Arrays;
 
 public class ArrayDemo {
-
 	public static void main(String[] args) {
 		int[] a={4,2,1,6,5};
 		int[] b=new int[]{4,2,1,6,5};
@@ -20,7 +19,7 @@ public class ArrayDemo {
 //		System.out.println(c.equals(b));
 //		System.out.println(d.equals(d));
 //		System.out.println(d.equals(e));
-		
+//
 //		System.out.println(Arrays.equals(a, b));
 //		System.out.println(Arrays.equals(c, b));
 //		System.out.println(Arrays.equals(c, d));
@@ -41,6 +40,7 @@ public class ArrayDemo {
 		int[] f=new int[]{1,2,3,4,5};
 		Arrays.fill(f, 100);
 		System.out.println(Arrays.toString(f));
+
 
 	}
 
