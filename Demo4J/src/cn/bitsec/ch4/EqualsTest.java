@@ -16,8 +16,8 @@ public class EqualsTest {
 		String str3, str4;
 		str3 = "busy";
 		str4 = "busy";
-		//str4=new String("busy");
-		// str4=new String(str3); 
+//		str4=new String("busy");
+//		 str4=new String(str3);
 		System.out.println("String3: " + str3);
 		System.out.println("String4: " + str4);
 		System.out.println("Same object? " + (str3 == str4));

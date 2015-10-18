@@ -1,6 +1,7 @@
 package cn.bitsec;
 
 import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * This class Demo is ...
@@ -10,13 +11,6 @@ import java.io.IOException;
  */
 public class Demo {
     public static void main(String[] args) throws IOException {
-        int a = 0;
-        char b;
-        do {
-            b = (char) System.in.read();
-            a++;
-            System.out.println("请从键盘输入一个字符: " + b);
-            System.out.println("键盘上输入的字符个数为: " + a);
-        } while (b != 'q');
+        System.out.println((char) new InputStreamReader(System.in).read());
     }
 }

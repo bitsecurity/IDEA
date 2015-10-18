@@ -9,18 +9,34 @@ import java.util.Hashtable;
 class A {
 	int date;
 
-	public boolean equals(Object obj) {
-		A aobj = null;
-		if (obj instanceof A) {
-			aobj = (A) obj;
-			return this.date == aobj.date;
-		} else
-			return false;
+	@Override
+	public boolean equals(Object o) {
+		if (this == o) return true;
+		if (o == null || getClass() != o.getClass()) return false;
+
+		A a = (A) o;
+
+		return date == a.date;
+
 	}
 
+	@Override
 	public int hashCode() {
 		return date;
 	}
+
+	//	public boolean equals(Object obj) {
+//		A aobj = null;
+//		if (obj instanceof A) {
+//			aobj = (A) obj;
+//			return this.date == aobj.date;
+//		} else
+//			return false;
+//	}
+//
+//	public int hashCode() {
+//		return date;
+//	}
 }
 
 public class HashtableFailDemo {

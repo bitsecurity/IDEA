@@ -30,22 +30,32 @@ class Person extends Animal implements Runner, Swimmer {
 
 public class TestInterface {
 	public static void main(String args[]) {
-		TestInterface t = new TestInterface();
+//		Person p=new Person();
+//		p.eat();
+//		p.run();
+//		p.swim();
+//		TestInterface t = new TestInterface();
 		Person p = new Person();
-		t.m1(p);
-		t.m2(p);
-		t.m3(p);
+//		t.m1(p);
+//		t.m2(p);
+//		t.m3(p);
+//		p.run();
+//		p.swim();
+//		p.eat();
+		m1(p);
+		m2(p);
+		m3(p);
 	}
 
-	public void m1(Runner f) {
+	public static void m1(Runner f) {
 		f.run();
 	}
 
-	public void m2(Swimmer s) {
+	public static void m2(Swimmer s) {
 		s.swim();
 	}
 
-	public void m3(Animal a) {
+	public static void m3(Animal a) {
 		a.eat();
 	}
 }

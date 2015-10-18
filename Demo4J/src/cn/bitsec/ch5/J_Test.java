@@ -14,10 +14,9 @@ public class J_Test {
 		try {
 			mb_method2(a);
 			System.out.print('a');
-		} 
-//		catch (Exception e) {
-//			System.out.print('b');
-//		} 
+		} catch (Exception e) {
+			System.out.print('b');
+		}
 		finally {
 			System.out.print('c');
 		}
@@ -25,6 +24,7 @@ public class J_Test {
 	}
 
 	static void mb_method2(String a[]) {
+		//System.out.println(a.length);
 		System.out.println(a[a.length]);
 	}
 }

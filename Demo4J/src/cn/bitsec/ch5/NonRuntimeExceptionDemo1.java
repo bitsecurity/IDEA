@@ -1,14 +1,19 @@
 package cn.bitsec.ch5;
 
-import java.io.*;
+import java.io.FileInputStream;
 
 class NonRuntimeExceptionDemo1 {
-	public static void main(String args[]) throws IOException{
-		FileInputStream in = new FileInputStream("text.txt");
-		int s;
-		while ((s = in.read()) != -1)
-			System.out.print(s);
-		in.close();
+	public static void main(String args[]) {
+		try {
+			FileInputStream in = new FileInputStream("text.txt");
+			int s;
+			while ((s = in.read()) != -1)
+				System.out.print(s);
+			in.close();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
 	}
 }
 

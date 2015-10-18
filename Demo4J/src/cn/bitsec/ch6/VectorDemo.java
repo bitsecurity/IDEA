@@ -1,10 +1,10 @@
 package cn.bitsec.ch6;
 
-import java.util.*;
+import java.util.Vector;
 
 public class VectorDemo {
 	public static void main(String args[]) {
-		Vector<String> vector = new Vector<String>(3);
+		Vector<String> vector = new Vector<String>(2);
 		System.out.println(vector.capacity()); // 3
 		vector.add("张三");
 		vector.add("李四");
